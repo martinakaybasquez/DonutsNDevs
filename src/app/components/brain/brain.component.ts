@@ -15,7 +15,7 @@ export class BrainComponent {
   constructor(private brainService:BrainService){}
 
   ngOnInit(){
-    this.callBrainApi
+    this.callBrainApi();
   }
 
   // getBrains is in service/brain.ts
