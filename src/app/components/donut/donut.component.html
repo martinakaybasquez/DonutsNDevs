@@ -1,0 +1,7 @@
+<h1>DONUTS</h1>
+@for (donuts of donut.results; track $index) {
+    <h2> {{donuts.id}}. {{donuts.name}} </h2>
+    <img [src]="donuts.photo">
+}
+
+<app-brain></app-brain>
